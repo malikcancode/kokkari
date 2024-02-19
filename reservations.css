@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faedcd;
+  font-family: "Cinzel", serif;
+}
+.navbar-nav {
+  width: 100%; /* make list items full-width */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  padding: 1rem; /* add padding to list items */
+  font-size: 1.4rem; /* set font size */
+  margin: 20px;
+  color: rgb(31, 27, 27);
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
+.text {
+  font-size: 15px;
+}
+.text a {
+  text-decoration: none;
+  color: #96693d;
+}
+.text {
+  padding: 10px 40px;
+}
+#footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#footer h4 {
+  font-size: 17px;
+  color: #996e43;
+}
+#footer a {
+  text-decoration: none;
+  color: #361f08;
+  padding: auto;
+}
+
+@media screen and (max-width: 667px) {
+  .navbar-nav {
+    margin-top: 2rem; /* add margin to move list items below navbar */
+  }
+  .logo {
+    width: 60%;
+  }
+  .navbar-toggler {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+  .navbar-collapse {
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .navbar-nav .nav-link {
+    margin: 0;
+    padding: 12px;
+    font-size: 25px;
+  }
+}

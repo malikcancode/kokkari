@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faedcd;
+  font-family: "Cinzel", serif;
+  flex-wrap: wrap;
+}
+.navbar-nav {
+  width: 100%; /* make list items full-width */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  padding: 1rem; /* add padding to list items */
+  font-size: 1.4rem; /* set font size */
+  margin: 20px;
+  color: rgb(31, 27, 27);
+}
+#text-1 h2 {
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#hr {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+#hr p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 12px;
+  border-left: 1rem solid rgb(128, 8, 8);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.box h4 {
+  font-size: 25px;
+  font-weight: bolder;
+  flex-wrap: wrap;
+}
+.box h6,
+p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.men-1 {
+  float: left;
+  width: 50%;
+  height: 70vh;
+}
+
+.image {
+  height: 70vh;
+  margin-bottom: 20px;
+}
+#men-col p {
+  font-size: 13px;
+}
+.content h3 {
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+.text {
+  font-size: 15px;
+}
+.text a {
+  text-decoration: none;
+  color: #96693d;
+}
+.text {
+  padding: 10px 40px;
+}
+#footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#footer h4 {
+  font-size: 17px;
+  color: #996e43;
+}
+#footer a {
+  text-decoration: none;
+  color: #361f08;
+  padding: auto;
+}
+
+@media screen and (max-width: 667px) {
+  .navbar-nav {
+    margin-top: 2rem; /* add margin to move list items below navbar */
+  }
+  .logo {
+    width: 60%;
+  }
+  .navbar-toggler {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+  .navbar-collapse {
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .navbar-nav .nav-link {
+    margin: 0;
+    padding: 12px;
+    font-size: 25px;
+  }
+  .box {
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+  }
+  .box h4 {
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+}
